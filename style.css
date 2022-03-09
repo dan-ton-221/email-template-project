@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    font-family: sans-serif;
+    font-size: 15px;
+    height: 100vh;
+    width: 100%;
+}
+
+#greeting {
+    background-color: gray;
+    color: aliceblue;
+}
+
+button {
+    background-color: orange;
+    padding: 10px;
+    color: aliceblue;
+}
+
+#conversation {
+    background-color: antiquewhite;
+}
+
+#search {
+    display: flex;
+    color: silver;
+    flex-wrap: nowrap;
+    padding-bottom: 25px;
+}
+
+.message-header {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.message {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time {
+    display: flex;
+    justify-content: end;
+}
+
+#preview {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.reply {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-small;
+}
+
+.body {
+    padding-top: 20px;
+    display: flex;
+    justify-content: start;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
